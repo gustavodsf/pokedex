@@ -1,18 +1,16 @@
+import { Type } from 'class-transformer'
 import { IsInt, IsOptional, IsString, Min } from 'class-validator';
 
 export class GetPokemonsDto {
-  @IsInt()
-  @Min(0)
+  @Type(() => Number) // Converte a entrada para um número
+  @IsInt({ message: 'limit must be an integer number' })
+  @Min(0, { message: 'limit must not be less than 0' })
   limit: number;
 
-  @IsInt()
-  @Min(0)
+  @Type(() => Number) // Converte a entrada para um número
+  @IsInt({ message: 'offset must be an integer number' })
+  @Min(0, { message: 'offset must not be less than 0' })
   offset: number;
-
-  constructor() {
-    this.limit = 20;
-    this.offset = 0;
-  }
 }
 
 export class GetPokemonByNameDto {
