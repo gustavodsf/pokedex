@@ -1,4 +1,3 @@
-```markdown
 # Pokédex Application
 
 This project is a Pokédex application built with an Angular frontend and a NestJS backend. The backend interacts with the PokéAPI to fetch Pokémon data, and the frontend displays this data to the user.
@@ -106,4 +105,3 @@ The backend exposes the following API endpoints:
 ## Contributing
 
 If you would like to contribute to this project, please fork the repository and submit a pull request.
-```
