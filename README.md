@@ -106,8 +106,3 @@ The backend exposes the following API endpoints:
 ## Contributing
 
 If you would like to contribute to this project, please fork the repository and submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
