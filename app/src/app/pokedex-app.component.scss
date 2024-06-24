@@ -1,0 +1,14 @@
+.pokedex-header {
+  background-color: #ffcb05; /* Pokédex yellow */
+  color: #3b4cca; /* Pokédex blue */
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid #3b4cca;
+}
+
+.pokedex-header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  font-family: 'Arial', sans-serif;
+}
