@@ -1,4 +1,4 @@
-import { Type } from 'class-transformer'
+import { Type } from 'class-transformer';
 import { IsInt, IsOptional, IsString, Min } from 'class-validator';
 
 export class GetPokemonsDto {
@@ -34,95 +34,94 @@ export interface PokemonBasicInfo {
   url: string;
 }
 
-
 export interface Pokemon {
-  abilities: Ability[]
-  base_experience: number
-  cries: Cries
-  forms: Form[]
-  game_indices: Index[]
-  height: number
-  held_items: any[]
-  id: number
-  is_default: boolean
-  location_area_encounters: string
-  moves: Mfe[]
-  name: string
-  order: number
-  past_abilities: any[]
-  past_types: any[]
-  species: Species
-  sprites: Sprites
-  weight: number
+  abilities: Ability[];
+  base_experience: number;
+  cries: Cries;
+  forms: Form[];
+  game_indices: Index[];
+  height: number;
+  held_items: any[];
+  id: number;
+  is_default: boolean;
+  location_area_encounters: string;
+  moves: Mfe[];
+  name: string;
+  order: number;
+  past_abilities: any[];
+  past_types: any[];
+  species: Species;
+  sprites: Sprites;
+  weight: number;
 }
 
 export interface Ability {
   ability: {
-    name: string
-    url: string
-  }
-  is_hidden: boolean
-  slot: number
+    name: string;
+    url: string;
+  };
+  is_hidden: boolean;
+  slot: number;
 }
 
 export interface Cries {
-  latest: string
-  legacy: string
+  latest: string;
+  legacy: string;
 }
 
 export interface Form {
-  name: string
-  url: string
+  name: string;
+  url: string;
 }
 
 export interface Index {
-  game_index: number
-  version: Version
+  game_index: number;
+  version: Version;
 }
 
 export interface Version {
-  name: string
-  url: string
+  name: string;
+  url: string;
 }
 
 export interface Mfe {
-  move: Move
-  version_group_details: VersionGroupDetail[]
+  move: Move;
+  version_group_details: VersionGroupDetail[];
 }
 
 export interface Move {
-  name: string
-  url: string
+  name: string;
+  url: string;
 }
 
 export interface VersionGroupDetail {
-  level_learned_at: number
-  move_learn_method: MoveLearnMethod
-  version_group: VersionGroup
+  level_learned_at: number;
+  move_learn_method: MoveLearnMethod;
+  version_group: VersionGroup;
 }
 
 export interface MoveLearnMethod {
-  name: string
-  url: string
+  name: string;
+  url: string;
 }
 
 export interface VersionGroup {
-  name: string
-  url: string
+  name: string;
+  url: string;
 }
 
 export interface Species {
-  name: string
-  url: string
+  name: string;
+  url: string;
 }
 
 export interface Sprites {
-  back_default: string
-  back_female: any
-  back_shiny: string
-  back_shiny_female: any
-  front_default: string
-  front_female: any
-  front_shiny: string
-  front_shiny_female: any
+  back_default: string;
+  back_female: any;
+  back_shiny: string;
+  back_shiny_female: any;
+  front_default: string;
+  front_female: any;
+  front_shiny: string;
+  front_shiny_female: any;
 }
