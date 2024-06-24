@@ -18,9 +18,6 @@
     "lint": "eslint",
     "ng": "ng",
     "start": "ng serve",
-    "test:cov": "jest --coverage",
-    "test:watch": "jest --watch",
-    "test": "ng test",
     "watch": "ng build --watch --configuration development"
   },
   "dependencies": {
