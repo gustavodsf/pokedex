@@ -106,3 +106,4 @@ The backend exposes the following API endpoints:
 ## Contributing
 
 If you would like to contribute to this project, please fork the repository and submit a pull request.
+```
